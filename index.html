@@ -1,15 +1,15 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8">
             <title>
                 The History Teller | www.tht.com
             </title>
+            <link href="style.css" rel="stylesheet" type="text/css">
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         </head>
         <body>
-            <head>
-                <nav>
-                    <a>The History Teller</a>
+            <header class="main-news">
+                <nav class="navbar">
                     <ul>
                         <li>
                             The World
@@ -33,63 +33,102 @@
                             More...
                         </li>
                     </ul>
-                    <i class="fas fa-bars"></i>
                 </nav>
-                <header>
+                <div class="title">
+                    <i class="fas fa-bars"></i>
                     <h1>
                         The History Teller
                     </h1>
+                </div>
+                <div class="bnews">
+                    <h2>
+                        Breaking News
+                    </h2>
+                    <ul>
+                        <li>Trump, Biden visit key battleground states ahead of election</li>
+                        <li>COVID-19 cases soar in all but 8 U.S. states</li>
+                        <li>McConnell announces Senate will vote next week on GOP-crafted COVID-19 relief bill</li>
+                    </ul>                        
+                </div>    
+            </header>
+            <article id="main-articles">
+                <h2>Latest News</h2>
+                <div>
+                    <img src="images/covid19.jpg">
+                    <h3>
+                        U.S. reports over 69,000 new COVID-19 cases – the most in a single day since July
+                    </h3>
                     <p>
-                        Main News:get a main News
+                        Wisconsin is one of at least seven states that in the past two days have set records for infections - and there's no mystery about what's causing case numbers to rise.
                     </p>
-                    <img>
-                </header>
-            </head>
-            <article>
-                  <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>
-                    <section>
-                        <img>
-                        <p>
-                            1st news
-                        </p>
-                    </section>  
+                    <span>9h ago</span>
+                </div>
+                <div>
+                    <img src="images/hunterbiden-640x360.jpg">
+                    <h3>
+                        What we know – and don't know – about Hunter Biden's alleged laptop
+                    </h3>
+                    <p>
+                        Wilmington, Delaware — President Trump and his allies have launched a late effort to again tarnish Joe Biden by tying him to his son Hunter Biden's overseas business interests, publicizing emails and photos supposedly from a laptop alleged to have been abandoned by the younger Biden and timing their release in a manner reminiscent of Russia's efforts to dump damaging material about Hillary Clinton in 2016.
+                    </p>
+                    <span>6h ago</span>
+                </div>
+                <div>
+                    <img src="images/drugbust-640x360.jpg">
+                    <h3>
+                        DEA recruits cite "monkey noises" among claims of racism
+                    </h3>
+                    <p>
+                        At the Drug Enforcement Administration's Training Academy in Virginia last year, an instructor on the firing range called out a name that was shared by two trainees, one Black and one white. When both responded, the white instructor clarified, "I meant the monkey."
+                    </p>
+                    <span>12h ago</span>
+                </div>
+                <div>
+                    <img src="./images/Blackman'sfamily.jpg">
+                    <h3>
+                        Black man's family views graphic bodycam video of his in-custody death: "His dying words were, 'I'm sorry'"
+                    </h3>
+                    <p>
+                        Family members viewed long-secret body-camera video this week of a Black man who died in Louisiana State Police custody this week. Their attorney called it damning footage that shows troopers choking and beating Ronald Greene, repeatedly jolting him with stun guns and dragging him face-down across the pavement.
+                    </p>
+                    <span>15h ago</span>
+                </div>
+                <div>
+                    <img src="images/NOAA.png">
+                    <h3>
+                        Only a handful of states will get a colder than normal winter, NOAA predicts
+                    </h3>
+                    <p>
+                        Don't expect much of a winter wallop this year, except for the pain of worsening drought, U.S. government forecasters said Thursday. Two-thirds of the United States should get a warmer than normal winter, the National Oceanic and Atmospheric Administration predicted.
+                    </p>
+                    <span>15h ago</span>
+                </div>
+                <div>
+                    <img src="images/chicagopolicefired-640x360.jpg">
+                    <h3>
+                        Former Chicago police superintendent accused of sexual assault and harassment by former driver
+                    </h3>
+                    <p>
+                        Former Chicago Police Superintendent Eddie Johnson was accused of sexual harassment and assault on Thursday in a lawsuit filed by an officer who says she served as his personal driver. The lawsuit accuses Johnson, who was the highest ranking member of the department at the time, of "shockingly violent, abusive, and harassing conduct" that included multiple instances of forced oral and vaginal sex. 
+                    </p>
+                    <span>15h ago</span>
+                </div>
+                <div>
+                    <img src="images/nflcovid-640x360.jpg">
+                    <h3>
+                        Indianapolis Colts say coronavirus tests came back negative after retesting
+                    </h3>
+                    <p>
+                        Four people in the Indianapolis Colts organization initially tested positive for the coronavirus, the team announced Friday. Their samples were retested, and the tests came back negative, the team said in a statement.
+                    </p>
+                    <span>15h ago</span>
+                </div>  
             </article>
-            <footer>
+            <form class="suscription">
+                <Label>Suscribe our Newsletter</Label>
+                <input type="email" placeholder="Enter your e-mail...">
+            </form>
+            <footer id="main-footer">
                 <ul>
                     <li>
                         Privacy Policy
