@@ -3,30 +3,30 @@ body{
     font-size: 11px; 
 
 }
+@media screen and (min-width: 480px) {
+    .navbar {display:flex}
+}
 .navbar {
     background-color: transparent;
-    height: 80%;
-    width: 70%;
+    height: 20%;
+    width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     color: rgb(235, 223, 235);
     display:none;
+    border: maroon groove;
 }
 .navbar ul{
     list-style: none;
     width: 100%;
     display: flex;
-        flex-direction: column; 
-        align-content: space-between;
-
+    justify-content: space-between;
 }
 .navbar li{
     padding: 4%;
     margin-left: -2%;
     margin-right: 2%;
     margin-top: 2%;
-    border:aquamarine;
-    border-style: groove;
     font-size: 45px;
     height: 100%;
     display: flex;
@@ -38,6 +38,12 @@ header{
     width: 100%;
     color: whitesmoke;
     font-weight: 300;
+}
+header h2{
+    color: maroon;
+    background: rgba(173, 173, 171, 0.9);
+    margin-bottom: 0%;
+    border-bottom:maroon double;
 }
 .title {
     font-size: 60px;
@@ -59,6 +65,19 @@ header{
 .title i{
     margin: 2%;
 }
+.bnews {
+    background: rgba(173, 173, 171, 0.9);
+    padding: 0% 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:black
+}
+.bnews div{
+    width:27%;
+    padding: 3% 0%;
+}
 .main-news {
     font-size: 35px;
     display: flex;
@@ -78,17 +97,22 @@ header{
     margin: 3%;
     padding: 3% 0%;
 }
+body h2{
+    font-size: 400%;
+    padding: 0% 6%;
+}
 #main-articles{
     margin-left: 2%;
     width: 100%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 #main-articles div{
     height: 50%;
     width: 480px;
-    margin: 1% 6%;
+    margin: 0% 0%;
     padding: 2%;
     font-size: 30px;
     text-align: justify;
@@ -106,7 +130,7 @@ header{
 #main-footer ul{
     display: flex;
         flex-direction: row; 
-        align-content: space-between;
+        justify-content: center;
 }
 #main-footer li{
     padding: 1% 3%;
@@ -119,7 +143,18 @@ header{
     height: 20%;
 }
 .suscription {
-    font-size: 15px;
+    font-size: 30px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    margin: 3%;
+    width: 100%;
+    margin: 3%;
+    padding: 1% 0%;
+}
+.suscription label{
+    padding: 0% 4%
+}
+.suscription input{
+    width: 50%;
 }
