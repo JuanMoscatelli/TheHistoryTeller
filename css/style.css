@@ -1,10 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 11px; 
-
-}
-@media screen and (min-width: 480px) {
-    .navbar {display:block}
 }
 .navbar {
     background-color: transparent;
@@ -33,7 +29,7 @@ body{
     justify-content: center;
 }
 header{
-    background: url("./images/pexels-burst-373912.jpg") -2100px -550px;
+    background: url("../images/pexels-burst-373912.jpg") -2100px -550px;
     height: 1026px;
     width: 100%;
     color: whitesmoke;
