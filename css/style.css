@@ -166,6 +166,60 @@ header{
 .suscription input{
     width: 50%;
 }
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#form div{
+    display: flex;
+    justify-content: space-between;
+}
+header .container{
+    background-color:#808080;
+    width: 50%;
+    margin: 15%;
+}
+#container {
+    display: flex;
+    width: 80%;
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+#button {
+    width: 100%;
+    border-color: green;
+    background-color:green;
+    color:white;
+}
+#name-container small{
+    display: none;
+}
+#email-container small{
+    display: none;
+}
+#pass-container small{
+    display: none;
+}
+#age-container small{
+    display: none;
+}
+#phone-container small{
+    display: none;
+}
+#address-container small{
+    display: none;
+}
+#city-container small{
+    display: none;
+}
+#pc-container small{
+    display: none;
+}
+#id-container small{
+    display: none;
+}
 @media screen and (max-width:798px){
     nav {
         display: none;
